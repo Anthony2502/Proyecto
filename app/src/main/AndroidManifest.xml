@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto"
+        tools:targetApi="31">
+        <activity
+            android:name=".Compra"
+            android:exported="false" />
+        <activity
+            android:name=".Venta"
+            android:exported="false" />
+        <activity
+            android:name=".CarritoCompra"
+            android:exported="false" />
+        <activity
+            android:name=".CarritoVenta"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TipoComprobanteEditar"
+            android:exported="false" />
+        <activity
+            android:name=".ProveedorEditar"
+            android:exported="false" />
+        <activity
+            android:name=".MedioPagoEditar"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoEditar"
+            android:exported="false" />
+        <activity
+            android:name=".ClienteEditar"
+            android:exported="false" />
+        <activity
+            android:name=".ListarTipoComprobanteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarMedioPagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarProveedorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoComprobanteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedioPagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProveedorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClienteActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
